@@ -1,0 +1,37 @@
+.page-content {
+    padding-top: 30px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers the cards */
+}
+
+.card {
+    border: 3px solid teal;
+    border-radius: 5px;
+    width: 60%;
+    margin: 20px auto; /* Centers the cards */
+    padding: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    background-color: #ffffff;
+}
+
+.card-header {
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    border-bottom: 2px solid rgb(192, 192, 192);
+    background-color: #f8f9fa;
+}
+
+.card-body {
+    padding: 20px;
+    font-size: 16px;
+    color: #333; /* Dark text for readability */
+}
+
+/* Hover Effect */
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5);
+}
